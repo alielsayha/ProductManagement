@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: system-ui;
+}
+.curd{
+    width: 80%;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+    padding: 7px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+/* end head  */
+
+input
+{
+    width: 100%;
+    height: 30px;
+    margin: 6px;
+    padding: 8px ;
+    background-color: #111;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+input:focus{
+    background: #000;
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.price input
+{
+    width: 17%;
+
+}
+.price #total{
+    background-color: red;
+    border-radius: 5px;
+    padding: 9px;
+    margin-left: 15px;
+}
+#total::before
+{
+    content: "total : ";
+    font-size: 20px;
+}
+
+input[type = submit]{
+    background-color: #3d0055;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 22px;
+    cursor: pointer;
+}
+input[type = submit]:hover{
+    background-color: #70079a;
+    letter-spacing: 2px;
+    transition: .8s;
+
+}
+.btnsearch
+{
+    display: flex;
+    justify-content: space-between;
+}
+.btnsearch input{
+    width: 45%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+table tr th , table tr td{
+    padding: 5px;
+    text-transform: capitalize;
+}
+table tr td{
+    font-size: 16px;
+}
